@@ -153,6 +153,11 @@
      flex: 1;
      flex-direction: row;
  }*/
+ .titulosProductos{
+    margin-top: 30px;
+    font-size: 40px;
+    margin-left: 30px;
+}
 
  .cards {
      padding: 60px;
@@ -289,7 +294,6 @@
      width: 650px;
      height: 150px;
  }
-
  .informacionPrincipal {
      width: 250px;
      height: 250px;
@@ -304,14 +308,19 @@
      align-items: center;
      z-index: 10;
  }
-
- /*no funciona*/
- .logoWhatsapp {
-     position: fixed;
-     bottom: 0px;
-     right: 0;
-     z-index: 10;
+ .container_boton{
+    position: fixed;
+     width: 55px;
+     height: 55px;
+     bottom: 50px;
+     right: 50px;
+     transition: ease 0.3s;
+     z-index: 999px;
  }
+ .container_boton:hover{
+    transform: scale(1.1);
+ }
+
 
  .mayorista {
      display: inline-flex;
@@ -353,8 +362,12 @@
        /* margin-left: 0px;*/
         display: grid;
         grid-template-columns: repeat(2, 1fr) ;
-        grid-template-rows: repeat(3, 3fr) ;
+       /* grid-template-rows: repeat(3, 3fr) ;*/
         margin-left: 100px;
+        padding-bottom: 150px;
+    }
+    .cardProductos {
+        border-radius: 25px;
     }
     .productos {
      color: black;
@@ -372,6 +385,15 @@
      align-items: center;
 
     }
+    .container_boton{
+         width: 200px;
+         height: 100px;
+     }
+    .boton_whatsapp{
+         width: 200px;
+         height: 200px;
+     }
+
     .insta {
         width: 1350px;
     }
@@ -385,7 +407,35 @@
      display: grid;
      grid-template-columns: repeat(3, 1fr);
     }
+    .descripcionMayorista {
+     font-size: 30px;
+     margin-bottom: 100px;
+    }
+    .imagenMayorista {
+        margin-top: 50px;
+        
+    }
+    .textoContacto {
+        font-size: 40px;
+    }
+    .titulosProductos{
+        margin-top: 30px;
+        font-size: 60px;
+        margin-left: 30px;
+    }
     .footer {
         width: 1350px;
+    }
+    .footer h2 {
+        font-size: 50px;
+    }
+    .footer  p{
+        font-size: 25px;
+    }
+    .footer a {
+        font-size: 35px;
+    }
+    .footer small {
+        font-size: 20px;
     }
  }
