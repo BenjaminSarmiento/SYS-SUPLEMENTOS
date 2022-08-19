@@ -306,8 +306,22 @@
      display: inline-flex;
      justify-content: center;
      align-items: center;
-     z-index: 10;
+     /*z-index: 10;*/
  }
+ .informacionPrincipalContacto {
+    width: 250px;
+    height: 250px;
+    margin-top: 100px;
+    margin-left: 130px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    border: solid 2px rgb(143, 142, 142);
+    border-radius: 200px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    /*z-index: 10;*/
+}
  .container_boton{
     position: fixed;
      width: 55px;
@@ -345,17 +359,81 @@
      text-align: center;
  }
 
-/*media celular*/
 
- @media screen and (max-width:480px) {
+
+ /*media pantallas grandes*/
+ @media screen and (max-width:1200px){
+    .encabezado {
+        width: 1400px;
+    }
+    .imagenPortada {
+        width: 1000px;
+        margin-right: 0px;
+        padding-right: 0px;
+    }
+    .naranja {
+        width: 1400px;
+    }
+    .cards {
+        width: 1300px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr) ;
+        margin-left: 40px;
+        padding-bottom: 150px;
+    }
+    .productos {
+        color: black;
+        text-align: center;
+        font-size: 300%;
+        border: solid 3px black;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-left: 200px;
+        margin-right: 200px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 60px;
+        display: flex;
+        align-items: center;
+        width: 1000px;
+       }
+       .insta {
+        width: 1400px;
+    }
+    .instaDos {
+        width: 1400px;
+    }
+    .informacionPrincipalGeneral {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+       }
+       .textoContacto {
+        font-size: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 200px;
+    }
+    .footer {
+        width: 1400px;
+    }
+    .footer a {
+        font-size: 35px;
+    }
+ }
+
+/*media tablet*/
+
+ @media screen and (max-width:1024px) {
     main {
         width: 1350px;
     }
     .encabezado {
-        width: 1350px;
+        width: 1400px;
+        z-index: 9;
     }
     .naranja {
-        width: 1350px;
+        width: 1400px;
     }
     .cards {
         width: 1300px;
@@ -388,24 +466,134 @@
     .container_boton{
          width: 200px;
          height: 100px;
+         z-index: 10;
      }
     .boton_whatsapp{
          width: 200px;
          height: 200px;
+         z-index: 10;
      }
 
     .insta {
-        width: 1350px;
+        width: 1400px;
     }
     .instaDos {
-        width: 1350px;
-    }
-    .instaDos {
-        width: 1350px;
+        width: 1400px;
     }
     .informacionPrincipalGeneral {
      display: grid;
      grid-template-columns: repeat(3, 1fr);
+    }
+    .informacionPrincipal {
+        z-index: 1;
+        margin-bottom: 500px;
+       }
+       .informacionPrincipalContacto {
+        margin-bottom: 1000px;
+       }
+    .descripcionMayorista {
+     font-size: 30px;
+     margin-bottom: 100px;
+    }
+    .imagenMayorista {
+        margin-top: 50px;
+        
+    }
+    .mayorista {
+        margin-bottom: 500px;
+       }
+    .textoContacto {
+        font-size: 40px;
+        margin-left: 70;
+    }
+    .titulosProductos{
+        margin-top: 30px;
+        font-size: 60px;
+        margin-left: 30px;
+    }
+    .footer {
+        width: 1400px;
+    }
+    .footer h2 {
+        font-size: 50px;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    .footer  p{
+        font-size: 25px;
+    }
+    .footer a {
+        font-size: 35px;
+    }
+    .footer small {
+        font-size: 20px;
+    }
+ }
+
+
+ /*media mobile*/
+ @media screen and (max-width:480px) {
+    main {
+        width: 1350px;
+    }
+    .encabezado {
+        width: 1400px;
+        z-index: 9;
+    }
+    .naranja {
+        width: 1400px;
+    }
+    .cards {
+        width: 1300px;
+       /* margin-left: 0px;*/
+        display: grid;
+        grid-template-columns: repeat(2, 1fr) ;
+       /* grid-template-rows: repeat(3, 3fr) ;*/
+        margin-left: 100px;
+        padding-bottom: 150px;
+    }
+    .cardProductos {
+        border-radius: 25px;
+    }
+    .productos {
+     color: black;
+     text-align: center;
+     font-size: 300%;
+     border: solid 3px black;
+     margin-top: 100px;
+     margin-bottom: 100px;
+     margin-left: 200px;
+     margin-right: 200px;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     padding-left: 60px;
+     display: flex;
+     align-items: center;
+
+    }
+    .container_boton{
+         width: 200px;
+         height: 100px;
+         z-index: 10;
+     }
+    .boton_whatsapp{
+         width: 200px;
+         height: 200px;
+         z-index: 10;
+     }
+
+    .insta {
+        width: 1400px;
+    }
+    .instaDos {
+        width: 1400px;
+    }
+    .informacionPrincipalGeneral {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+    }
+    .informacionPrincipalContacto {
+     margin-bottom: 1200px;
     }
     .descripcionMayorista {
      font-size: 30px;
@@ -415,8 +603,12 @@
         margin-top: 50px;
         
     }
+    .mayorista {
+        margin-bottom: 1100px;
+       }
     .textoContacto {
         font-size: 40px;
+        text-align: center;
     }
     .titulosProductos{
         margin-top: 30px;
@@ -424,7 +616,7 @@
         margin-left: 30px;
     }
     .footer {
-        width: 1350px;
+        width: 1400px;
     }
     .footer h2 {
         font-size: 50px;
