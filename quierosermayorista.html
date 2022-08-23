@@ -5,7 +5,8 @@
         <meta http-equiv="X-UA.Compatible" content="IE-edge">
         <meta name="viewport" content="width=device-width, inicial-scale=1.0">
         
-        <title>Quiero ser mayorista</title>
+        <title>REVENDEDORES</title>
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
         <link rel="stylesheet" href="./css/style.css">
         <script src="https://kit.fontawesome.com/9dec5f608b.js" crossorigin="anonymous"></script>
     </head>
@@ -13,10 +14,10 @@
         <header class="encabezado">
             <div class="encabezadoDos">
                 <a href="./index.html"> <img class="logoSys" src="./img/sys logo.png" alt="logo sys"> </a>
-                <h1> QUIERO SER MAYORISTA  
+                <h1> REVENDEDORES 
                 </h1>
             </div>
-            <nav>
+            <!--<nav>
                 <ul>
                     <li><a class="menu" href="index.html">inicio</a></li>
                     <li><a class="menu" href="productos.html">productos</a></li>
@@ -24,7 +25,70 @@
                     <li><a class="menu" href="contacto.html">contacto</a></li>
                     <li><a class="menu" href="quierosermayorista.html">quiero ser mayorista</a></li>
                 </ul>
+            </nav>-->
+            <!--navbar nueva-->
+            <nav class="navbar navbar-expand-lg bg-light">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">Inicio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <!--<li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">inicio</a>
+                    </li>-->
+                    <!--<li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>-->
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="./productos.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Productos
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="./productos.html">Ver todos los productos</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">proteinas</a></li>
+                        <li><a class="dropdown-item" href="#">creatinas</a></li>
+                        <li><a class="dropdown-item" href="#">shakers</a></li>
+                        <li><a class="dropdown-item" href="#">ganadores</a></li>
+                        <li><a class="dropdown-item" href="#">colagenos</a></li>
+                        <li><a class="dropdown-item" href="#">quemadores</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="./marcas.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Marcas
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="./marcas.html">Ver todas nuestras marcas</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">proteinas</a></li>
+                        <li><a class="dropdown-item" href="#">creatinas</a></li>
+                        <li><a class="dropdown-item" href="#">shakers</a></li>
+                        <li><a class="dropdown-item" href="#">ganadores</a></li>
+                        <li><a class="dropdown-item" href="#">colagenos</a></li>
+                        <li><a class="dropdown-item" href="#">quemadores</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="./contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="./quierosermayorista.html">Revendedores</a>
+                    </li>
+                    <!--<li class="nav-item">
+                      <a class="nav-link disabled">Disabled</a>
+                    </li>-->
+                  </ul>
+                  <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-dark" type="submit">Buscar</button>
+                  </form>
+                </div>
+              </div>
             </nav>
+      <!-- fin navbar nueva-->
         </header>
         <main>
             <div class="container_boton">
@@ -44,6 +108,29 @@
                     <strong>sys.suplementos7@gmail.com</strong> o comunicarte con nosotros via <strong><a class="instaTres" href="http://wa.me/5493512008375"> whatsapp: 3512008375</a></strong>, asi te armamos una propuesta en base a lo que mas te interesa.</p>
                 </div>
             </section>
+            <!--formulario-->
+            <div class="row">
+                <div class="col-7">
+                    <form class="formulario">
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Nombre / Nombre de la empresa</label>
+                          <input type="Name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <div id="emailHelp" class="form-text"></div>
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Telefono</label>
+                          <input type="Phone" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <div id="emailHelp" class="form-text">Vamos a comunicarnos lo antes posible</div>
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Mensaje</label>
+                          <input type="message" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <div id="emailHelp" class="form-text">Comentanos en que productos estas interesado</div>
+                        </div>
+                        <button type="submit" class="btn btn-dark">Enviar</button>
+                      </form>
+                </div>
+            </div>
         </main>
         <footer class="footer">
             <div>
@@ -53,7 +140,7 @@
                     <li><a class="footerDos" href="productos.html">productos</a></li>
                     <li><a class="footerDos" href="marcas.html">marcas</a></li>
                     <li><a class="footerDos" href="contacto.html">contacto</a></li>
-                    <li><a class="footerDos" href="quierosermayorista.html">quiero ser mayorista</a></li>
+                    <li><a class="footerDos" href="quierosermayorista.html">revendedores</a></li>
                 </ul>
             </div>
             <div>
@@ -72,5 +159,6 @@
                 <small>&copy; 2022 <b>sys suplementos</b> - Todos los derechos Reservados. creator: BSstudios</small>
             </div>
         </footer>
+        <script src="./js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
