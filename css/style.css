@@ -42,10 +42,11 @@
      height: 150px;
      padding-right: 50px;
  }
- .navbarNueva {
- }
  .navbarnavbar-expand-lgbg-light .li {
     font-size: 15px; 
+}
+ .botonesNavbar {
+    font-size: 100px;
 }
 
 

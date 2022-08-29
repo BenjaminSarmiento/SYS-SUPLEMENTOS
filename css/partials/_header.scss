@@ -1,0 +1,46 @@
+.encabezado{
+    background-color: rgb(24, 23, 23);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 200%;
+     position: sticky; 
+     top: 0;
+    border-bottom: solid 6px rgb(255, 255, 255);
+    z-index: 80;
+
+    .encabezadoDos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 80;
+
+        h1{
+            font-size: 60px;
+         }
+
+        .logoSys {
+            width: 250px;
+            height: 150px;
+            padding-right: 50px;
+        } 
+    } 
+    /*.navbar navbar-expand-lg bg-light{
+        .container-fluid{
+            
+        }
+        .navbar-brand{
+
+        }
+        .navbar-toggler{
+
+        }
+        .navbar-toggler-icon{
+
+        }
+        .collapse navbar-collapse{
+
+            .navbar-toggler-icon{
+
+            }
+        }
+    }*/
