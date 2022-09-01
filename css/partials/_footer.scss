@@ -7,43 +7,48 @@
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 50px;
     padding: 45px 0px;
+}
 
-    h2 {
-        color: white;
-        margin-bottom: 25px;
-        font-size: 20px;
-    }
-    .footerDos {
-        text-decoration: none;
-        color: white;
-        display: block;
-        margin-left: 30px;
-        background-color: rgb(107, 107, 107);
-    }
-    p {
-        color: #efefef;
-    }
-    .redes a {
-        display: inline-block;
-        text-decoration: none;
-        width: 45px;
-        height: 45px;
-        line-height: 45px;
-        color: white;
-        margin-right: 10px;
-        background-color: rgb(100, 98, 98);
-        text-align: center;
-    }
-    .derechosAutor {
-        width: 100%;
-        text-align: center;
-        color: white;
-        background-color: rgb(100, 98, 98);
-    }
-    ul {
-        list-style-type: none;
-    }
-    ul li {
+.footerDos {
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-left: 30px;
+    background-color: rgb(107, 107, 107);
+}
+
+.footer h2 {
+    color: white;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.footer p {
+    color: #efefef;
+}
+
+.footer .redes a {
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: white;
+    margin-right: 10px;
+    background-color: rgb(100, 98, 98);
+    text-align: center;
+}
+
+.footer .derechosAutor {
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: rgb(100, 98, 98);
+}
+ul {
+    list-style-type: none;
+
+    li {
         margin-left: 100px;
         padding-left: 0px;
         padding-right: 40px;

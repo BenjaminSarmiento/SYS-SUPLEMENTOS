@@ -2,8 +2,12 @@
 @import "./partials/reset";
 
 
-@import "./css/bootstrap.min.css";
+/*@import "./css/bootstrap.min.css";*/
 @import "./partials/body";
 @import "./partials/header";
 @import "./partials/main";
 @import "./partials/footer";
+
+@import "./partials/pantallasGrandes";
+@import "./partials/tablet";
+@import "./partials/mobile";

@@ -1,0 +1,39 @@
+/*pantallas grandes*/
+
+@media screen and (max-width:1200px){
+    .encabezado {
+        width: 1400px;
+    }
+    .portadaNueva{
+        width: 1400px;
+      }
+    .naranja {
+        width: 1400px;
+    }
+    .insta {
+        width: 1400px;
+    }
+    .instaDos {
+        width: 1400px;
+    }
+    .informacionPrincipalGeneral {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+       }
+    .textoContacto {
+        font-size: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 200px;
+    }
+    .formulario {
+        width: 400px
+    }
+    .footer {
+        width: 1400px;
+        a {
+            font-size: 35px;
+        }
+    }
+  }

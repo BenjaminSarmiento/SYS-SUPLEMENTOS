@@ -1,0 +1,46 @@
+/*vista mobile*/
+
+@media screen and (max-width:480px) {
+    main {
+        width: 1350px;
+    }
+    .encabezado {
+        width: 1400px;
+        z-index: 9;
+    }
+    .container_boton{
+         width: 200px;
+         height: 100px;
+         z-index: 10;
+     }
+    .boton_whatsapp{
+         width: 200px;
+         height: 200px;
+         z-index: 10;
+     }
+    .informacionPrincipalGeneral {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+    }
+    .textoContacto {
+        font-size: 40px;
+        text-align: center;
+    }
+    .footer {
+        width: 1400px;
+        padding-bottom: 350px;
+
+        .h2 {
+            font-size: 50px;
+        }
+        .p{
+            font-size: 25px;
+        }
+        .a {
+            font-size: 35px;
+        }
+        .small {
+            font-size: 20px;
+        }
+    }
+  }
