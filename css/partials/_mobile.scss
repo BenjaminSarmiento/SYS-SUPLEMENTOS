@@ -8,6 +8,13 @@
         width: 1400px;
         z-index: 9;
     }
+    .cards {
+        padding: 60px;
+        margin-left: 160px;
+        display: grid;
+        gap: 50px;
+        grid-template-columns: repeat(2, 1fr);
+          }
     .container_boton{
          width: 200px;
          height: 100px;
