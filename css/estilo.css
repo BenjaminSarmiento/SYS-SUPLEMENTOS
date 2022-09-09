@@ -363,6 +363,13 @@ h3 {
   .instaDos {
     width: 1400px;
   }
+  .productos {
+    margin-left: 320px;
+    margin-right: 30px;
+  }
+  .card {
+    margin-left: 10px;
+  }
   .informacionPrincipalGeneral {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -387,11 +394,30 @@ h3 {
 /*vista tablet*/
 @media screen and (max-width: 1024px) {
   main {
-    width: 1350px;
+    width: 1400px;
   }
   .encabezado {
-    width: 1400px;
+    width: 1500px;
     z-index: 9;
+  }
+  .naranja {
+    width: 1500px;
+  }
+  .portadaNueva {
+    width: 1500px;
+  }
+  .insta {
+    width: 1500px;
+  }
+  .instaDos {
+    width: 1500px;
+  }
+  .card {
+    margin-left: 50px;
+  }
+  .productos {
+    margin-left: 300px;
+    margin-right: 150px;
   }
   .container_boton {
     width: 200px;
@@ -416,7 +442,7 @@ h3 {
     margin-left: 70;
   }
   .footer {
-    width: 1400px;
+    width: 1500px;
   }
   .footer .h2 {
     font-size: 50px;
@@ -439,7 +465,7 @@ h3 {
     width: 1350px;
   }
   .encabezado {
-    width: 1400px;
+    width: 1500px;
     z-index: 9;
   }
   .cards {
@@ -468,7 +494,7 @@ h3 {
     text-align: center;
   }
   .footer {
-    width: 1400px;
+    width: 1500px;
     padding-bottom: 350px;
   }
   .footer .h2 {

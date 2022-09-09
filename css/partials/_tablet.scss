@@ -2,11 +2,30 @@
 
 @media screen and (max-width:1024px) {
     main {
-        width: 1350px;
+        width: 1400px;
     }
     .encabezado {
-        width: 1400px;
+        width: 1500px;
         z-index: 9;
+    }
+    .naranja {
+        width: 1500px;
+    }
+    .portadaNueva {
+        width: 1500px;
+    }
+    .insta {
+        width: 1500px;
+    }
+    .instaDos {
+        width: 1500px;
+    }
+    .card {
+        margin-left: 50px;
+    }
+    .productos {
+        margin-left: 300px;
+        margin-right: 150px;
     }
     .container_boton{
          width: 200px;
@@ -31,7 +50,7 @@
         margin-left: 70;
     }
     .footer {
-        width: 1400px;
+        width: 1500px;
 
         .h2 {
             font-size: 50px;
