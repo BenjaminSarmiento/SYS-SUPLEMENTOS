@@ -286,6 +286,9 @@ h3 {
   margin-bottom: 25px;
   font-size: 20px;
 }
+.footer .tituloFooter {
+  margin-left: 50px;
+}
 .footer .footerDos {
   text-decoration: none;
   color: white;
@@ -306,6 +309,7 @@ h3 {
   margin-right: 10px;
   background-color: rgb(100, 98, 98);
   text-align: center;
+  margin-left: 50px;
 }
 .footer .derechosAutor {
   width: 100%;
@@ -400,20 +404,105 @@ h3 {
     width: 1500px;
     z-index: 9;
   }
+  .encabezado .encabezadoDos h1 {
+    font-size: 80px;
+  }
   .naranja {
     width: 1500px;
+    height: 70px;
+    font-size: 45px;
   }
   .portadaNueva {
     width: 1500px;
   }
+  .productos {
+    margin-left: 300px;
+    margin-right: 150px;
+    width: 900px;
+    height: 100px;
+  }
+  .productos .productosDos {
+    text-decoration: none;
+    color: black;
+    font-size: 50px;
+  }
   .insta {
     width: 1500px;
+    font-size: 80px;
   }
   .instaDos {
     width: 1500px;
   }
-  .card {
-    margin-left: 50px;
+  .instaDos .instaTres {
+    text-decoration: none;
+    color: black;
+    font-size: 70px;
+  }
+  .cards {
+    padding: 60px;
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .cards .card {
+    width: 500px;
+    height: 920px;
+    background-color: rgb(107, 107, 107);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+    margin-left: 120px;
+  }
+  .cards .card .cardImagen {
+    height: 400px;
+    width: 100%;
+  }
+  .cards .card p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 35px;
+  }
+  .cards .card .cardDiv .precio {
+    color: black;
+    text-align: center;
+    font-size: 35px;
+  }
+  .cards .card .cardDiv .cardTitulo {
+    color: black;
+    text-align: center;
+    font-size: 40px;
+  }
+  .cards .cardProductos {
+    width: 500px;
+    height: 920px;
+    background-color: rgb(107, 107, 107);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+    margin-left: 120px;
+  }
+  .cards .cardProductos .cardImagen {
+    height: 400px;
+    width: 100%;
+  }
+  .cards .cardProductos .cardDiv .cardTitulo {
+    color: black;
+    text-align: center;
+    font-size: 40px;
+  }
+  .cards .cardProductos p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 35px;
+  }
+  .cards .cardProductos .cardDiv .precio {
+    color: black;
+    text-align: center;
+    font-size: 35px;
   }
   .productos {
     margin-left: 300px;
@@ -421,25 +510,81 @@ h3 {
   }
   .container_boton {
     width: 200px;
-    height: 100px;
+    height: 150px;
     z-index: 10;
   }
   .boton_whatsapp {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     z-index: 10;
   }
+  /*.informacionPrincipal {
+      z-index: 1;
+      margin-bottom: 500px;
+     }*/
   .informacionPrincipalGeneral {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
-  .informacionPrincipal {
-    z-index: 1;
-    margin-bottom: 500px;
+  .informacionPrincipalGeneral .informacionPrincipal {
+    width: 350px;
+    height: 350px;
+    padding-left: px;
+    margin-top: 100px;
+    margin-left: 80px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    border: solid 2px rgb(143, 142, 142);
+    border-radius: 200px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .informacionPrincipalGeneral .informacionPrincipalContacto {
+    width: 350px;
+    height: 350px;
+    padding-left: px;
+    margin-top: 100px;
+    margin-left: 80px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    border: solid 2px rgb(143, 142, 142);
+    border-radius: 200px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
   }
   .textoContacto {
+    font-size: 60px;
+    text-align: center;
+  }
+  .titulosProductos {
+    font-size: 70px;
+  }
+  .formulario {
+    color: black;
+    text-align: center;
     font-size: 40px;
-    margin-left: 70;
+    margin-left: 450px;
+    width: 600px;
+  }
+  .btn {
+    width: 150px;
+    height: 60px;
+    font-size: 25px;
+  }
+  .mayorista .imagenMayorista {
+    width: 600px;
+    height: 600px;
+  }
+  .mayorista .mayoristaTitulo, .mayorista .mayoristaParrafo {
+    font-size: 40px;
+  }
+  .mayorista .mayoristaParrafo {
+    font-size: 40px;
+  }
+  .mayorista .textoMayorista {
+    font-size: 25px;
   }
   .footer {
     width: 1500px;
@@ -458,6 +603,18 @@ h3 {
   .footer .small {
     font-size: 20px;
   }
+  .footer .textoFooterUno {
+    font-size: 40px;
+  }
+  .footer .textoFooterDos {
+    display: none;
+  }
+  .footer .derechosAutor {
+    font-size: 30px;
+  }
+  .footer .tituloFooter {
+    font-size: 50px;
+  }
 }
 /*vista mobile*/
 @media screen and (max-width: 480px) {
@@ -468,30 +625,174 @@ h3 {
     width: 1500px;
     z-index: 9;
   }
+  .encabezado .encabezadoDos h1 {
+    font-size: 80px;
+  }
+  .naranja {
+    width: 1500px;
+    height: 70px;
+    font-size: 45px;
+  }
   .cards {
     padding: 60px;
     margin-left: 160px;
     display: grid;
     gap: 50px;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+  }
+  .cards .card {
+    width: 800px;
+    height: 950px;
+    margin-left: 140px;
+    background-color: rgb(107, 107, 107);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+  }
+  .cards .card .cardImagen {
+    height: 500px;
+    width: 100%;
+  }
+  .cards .card .cardDiv .cardTitulo {
+    color: black;
+    text-align: center;
+    font-size: 60px;
+  }
+  .cards .card p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 35px;
+  }
+  .cards .card .cardDiv .precio {
+    color: black;
+    text-align: center;
+    font-size: 40px;
+  }
+  .cards .cardProductos {
+    width: 800px;
+    height: 950px;
+    margin-left: 140px;
+    background-color: rgb(107, 107, 107);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+  }
+  .cards .cardProductos .cardImagen {
+    height: 500px;
+    width: 100%;
+  }
+  .cards .cardProductos .cardDiv .cardTitulo {
+    color: black;
+    text-align: center;
+    font-size: 60px;
+  }
+  .cards .cardProductos p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 35px;
+  }
+  .cards .cardProductos .cardDiv .precio {
+    color: black;
+    text-align: center;
+    font-size: 40px;
   }
   .container_boton {
-    width: 200px;
-    height: 100px;
+    width: 300px;
+    height: 200px;
     z-index: 10;
   }
   .boton_whatsapp {
-    width: 200px;
-    height: 200px;
+    width: 350px;
+    height: 350px;
     z-index: 10;
+  }
+  .productos {
+    margin-left: 300px;
+    margin-right: 150px;
+    width: 900px;
+    height: 100px;
+  }
+  .productos .productosDos {
+    text-decoration: none;
+    color: black;
+    font-size: 50px;
+  }
+  .insta {
+    width: 1500px;
+    font-size: 80px;
+  }
+  .instaDos .instaTres {
+    text-decoration: none;
+    color: black;
+    font-size: 70px;
   }
   .informacionPrincipalGeneral {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
+  .informacionPrincipalGeneral .informacionPrincipal {
+    width: 350px;
+    height: 350px;
+    padding-left: px;
+    margin-top: 100px;
+    margin-left: 80px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    border: solid 2px rgb(143, 142, 142);
+    border-radius: 200px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .informacionPrincipalGeneral .informacionPrincipalContacto {
+    width: 350px;
+    height: 350px;
+    padding-left: px;
+    margin-top: 100px;
+    margin-left: 80px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    border: solid 2px rgb(143, 142, 142);
+    border-radius: 200px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
   .textoContacto {
-    font-size: 40px;
+    font-size: 60px;
     text-align: center;
+  }
+  .mayorista .imagenMayorista {
+    width: 600px;
+    height: 600px;
+  }
+  .mayorista .mayoristaTitulo, .mayorista .mayoristaParrafo {
+    font-size: 40px;
+  }
+  .mayorista .mayoristaParrafo {
+    font-size: 40px;
+  }
+  .mayorista .textoMayorista {
+    font-size: 25px;
+  }
+  .formulario {
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    margin-left: 450px;
+  }
+  .formulario {
+    width: 600px;
+  }
+  .btn {
+    width: 150px;
+    height: 60px;
+    font-size: 25px;
   }
   .footer {
     width: 1500px;
@@ -508,5 +809,17 @@ h3 {
   }
   .footer .small {
     font-size: 20px;
+  }
+  .footer .textoFooterUno {
+    font-size: 50px;
+  }
+  .footer .textoFooterDos {
+    display: none;
+  }
+  .footer .derechosAutor {
+    font-size: 30px;
+  }
+  .footer .tituloFooter {
+    font-size: 50px;
   }
 }/*# sourceMappingURL=estilo.css.map */

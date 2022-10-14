@@ -7,48 +7,202 @@
     .encabezado {
         width: 1500px;
         z-index: 9;
+
+        .encabezadoDos h1 {
+            font-size: 80px;
+        }
     }
     .naranja {
         width: 1500px;
+        height: 70px;
+        font-size: 45px;
     }
     .portadaNueva {
         width: 1500px;
     }
+    .productos {
+        margin-left: 300px;
+        margin-right: 150px;
+        width: 900px;
+        height: 100px;
+
+        .productosDos {
+            text-decoration: none;
+            color: black;
+            font-size: 50px;
+        }
+    }
     .insta {
         width: 1500px;
+        font-size: 80px;
     }
-    .instaDos {
+    .instaDos{
         width: 1500px;
+
+        .instaTres {
+            text-decoration: none;
+            color: black;
+            font-size: 70px;
+        }
     }
-    .card {
-        margin-left: 50px;
+    .cards {
+        padding: 60px;
+        display: grid;
+        gap: 50px;
+        grid-template-columns: repeat(2, 1fr);
+
+        .card {
+            width: 500px;
+            height: 920px;
+            background-color: rgb(107, 107, 107);
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0px 1px 10px rgb(0 0 0 / 20%);
+            cursor: default;
+            transition: all 400ms ease;
+            margin-left: 120px;
+
+            .cardImagen {
+                height: 400px;
+                width: 100%;
+            }
+            p {
+                margin-top: 0;
+                margin-bottom: 1rem;
+                font-size: 35px;
+            }
+            .cardDiv{
+                .precio {
+                    color: black;
+                    text-align: center;
+                    font-size: 35px;
+                }
+                .cardTitulo {
+                    color: black;
+                    text-align: center;
+                    font-size: 40px;
+                }
+            }
+        }
+        .cardProductos {
+            width: 500px;
+            height: 920px;
+            background-color: rgb(107, 107, 107);
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0px 1px 10px rgb(0 0 0 / 20%);
+            cursor: default;
+            transition: all 400ms ease;
+            margin-left: 120px;
+
+            .cardImagen {
+                height: 400px;
+                width: 100%;
+            }
+            .cardDiv .cardTitulo {
+                color: black;
+                text-align: center;
+                font-size: 40px;
+            }
+            p {
+                margin-top: 0;
+                margin-bottom: 1rem;
+                font-size: 35px;
+            }
+            .cardDiv .precio {
+                color: black;
+                text-align: center;
+                font-size: 35px;
+            }
+        }
     }
+    
     .productos {
         margin-left: 300px;
         margin-right: 150px;
     }
     .container_boton{
-         width: 200px;
-         height: 100px;
-         z-index: 10;
-     }
-    .boton_whatsapp{
-         width: 200px;
-         height: 200px;
-         z-index: 10;
-     }
-    .informacionPrincipalGeneral {
-     display: grid;
-     grid-template-columns: repeat(3, 1fr);
+        width: 200px;
+        height: 150px;
+        z-index: 10;
     }
-    .informacionPrincipal {
+    .boton_whatsapp {
+       width: 250px;
+       height: 250px;
+       z-index: 10;
+   }
+    /*.informacionPrincipal {
         z-index: 1;
         margin-bottom: 500px;
+       }*/
+       .informacionPrincipalGeneral {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+   
+        .informacionPrincipal {
+           width: 350px;
+           height: 350px;
+           padding-left: px;
+           margin-top: 100px;
+           margin-left: 80px;
+           margin-right: 50px;
+           margin-bottom: 100px;
+           border: solid 2px rgb(143, 142, 142);
+           border-radius: 200px;
+           display: inline-flex;
+           justify-content: center;
+           align-items: center;
        }
-    .textoContacto {
-        font-size: 40px;
-        margin-left: 70;
+       .informacionPrincipalContacto {
+        width: 350px;
+        height: 350px;
+        padding-left: px;
+        margin-top: 100px;
+        margin-left: 80px;
+        margin-right: 50px;
+        margin-bottom: 100px;
+        border: solid 2px rgb(143, 142, 142);
+        border-radius: 200px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
     }
+    }
+    .textoContacto {
+        font-size: 60px;
+        text-align: center;
+    }
+    .titulosProductos {
+        font-size: 70px;
+    }
+    .formulario {
+        color: black;
+        text-align: center;
+        font-size: 40px;
+        margin-left: 450px;
+        width: 600px;
+    }
+    .btn {
+        width: 150px;
+        height: 60px;
+        font-size: 25px;
+    }
+    .mayorista {
+        
+        .imagenMayorista {
+            width: 600px;
+            height: 600px;
+        }
+        .mayoristaTitulo{
+            font-size: 40px;
+        }
+        .mayoristaParrafo{
+            font-size: 40px;
+        }
+        .textoMayorista{
+            font-size: 25px;
+        }
+        }
     .footer {
         width: 1500px;
 
@@ -66,5 +220,18 @@
         .small {
             font-size: 20px;
         }
+        .textoFooterUno {
+            font-size: 40px;
+        }
+        .textoFooterDos {
+            display: none;
+        }
+        .derechosAutor {
+            font-size: 30px;
+        }
+        .tituloFooter{
+           font-size: 50px;
+        }
     }
+
   }
